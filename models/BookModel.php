@@ -1,5 +1,5 @@
 <?php
-/* Student: 2209314 - Rana Alsaggaf */
+/* Rana Alsaggaf - 2209314 */
 require_once __DIR__.'/db.php';
 class BookModel {
   public static function all(): array {

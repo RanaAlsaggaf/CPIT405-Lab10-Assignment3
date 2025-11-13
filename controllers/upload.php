@@ -1,5 +1,5 @@
 <?php
-/* Student: 2209314 - Rana Alsaggaf */
+/* Rana Alsaggaf - 2209314 */
 $dir=__DIR__.'/../uploads';
 if(!is_dir($dir)) mkdir($dir,0777,true);
 if(!isset($_FILES['f'])) die('No file');

@@ -1,5 +1,5 @@
 <?php
-/* Student: 2209314 - Rana Alsaggaf */
+/* Rana Alsaggaf - 2209314 */
 class DB {
   private static ?PDO $pdo = null;
 

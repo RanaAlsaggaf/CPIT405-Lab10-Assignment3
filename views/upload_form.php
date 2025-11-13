@@ -1,4 +1,4 @@
-<?php /* Student: 2209314 - Rana Alsaggaf */ ?>
+<?php /* Rana Alsaggaf - 2209314 */ ?>
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8">

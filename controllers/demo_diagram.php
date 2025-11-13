@@ -1,15 +1,61 @@
 <?php
-/* Student: 2209314 - Rana Alsaggaf */
-$first="Library"; $last="System"; $title=$first." ".$last;
-$a=7; $b=3; $sum=$a+$b; $mul=$a*$b; $status=$sum>9?"big":"small";
-$d=date('N'); $day=$d==5?"Friday":($d==6?"Saturday":"Weekday");
-$nums=[1,2,3,4]; function avg($arr){ return count($arr)?array_sum($arr)/count($arr):0; }
-class Util{ public static function square($n){return $n*$n;} }
+/* Rana Alsaggaf - 2209314 */
+class Person {
+    private $name;  
 
-echo "<h2>Diagram Demo</h2><ul>";
-echo "<li>Title: $title</li>";
-echo "<li>$a + $b = $sum, $a * $b = $mul</li>";
-echo "<li>Status: $status</li>";
-echo "<li>Today: $day</li>";
-echo "<li>Avg of [1,2,3,4]: ".avg($nums)."</li>";
-echo "<li>Square(5): ".Util::square(5)."</li></ul>";
+    public function __construct($name) {
+        $this->name = $name;
+    }
+
+    public function speak() {
+        echo $this->name . " says: Hello!<br>";
+    }
+
+    public function getName() {
+        return $this->name;   
+    }
+}
+
+
+
+class Professor extends Person {
+    private $salary;  
+
+    public function __construct($name, $salary) {
+        parent::__construct($name);  
+        $this->salary = $salary;
+    }
+
+    public function Teach() {
+        echo $this->getName() . " is teaching...<br>";
+    }
+}
+
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assessment 2: UML Demo</title>
+    <link rel="stylesheet" href="../css/style1.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="card">
+        <h2>Assessment 2 – Person / Professor UML Demo</h2>
+        <pre>
+<?php
+$rana = new Professor("Rana", 65000);
+
+$rana->speak();     
+$rana->Teach();      
+
+echo "Name: " . $rana->getName() . "<br>";
+?>
+        </pre>
+    </div>
+</div>
+</body>
+</html>

@@ -1,4 +1,4 @@
--- Student: 2209314 - Rana Alsaggaf
+/* Rana Alsaggaf - 2209314 */
 CREATE DATABASE IF NOT EXISTS cpit405_lab10 CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE cpit405_lab10;
 

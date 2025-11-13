@@ -1,5 +1,5 @@
 <?php
-/* Student: 2209314 - Rana Alsaggaf */
+/* Rana Alsaggaf - 2209314 */
 session_start();
 require_once __DIR__.'/../models/AuthModel.php';
 if($_SERVER['REQUEST_METHOD']==='POST'){

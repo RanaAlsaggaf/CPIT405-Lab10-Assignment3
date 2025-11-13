@@ -1,5 +1,5 @@
 <?php
-/* Student: 2209314 - Rana Alsaggaf */
+/* Rana Alsaggaf - 2209314 */
 require_once __DIR__.'/../models/BookModel.php';
 header('Content-Type: application/json; charset=utf-8');
 $method=$_SERVER['REQUEST_METHOD'];

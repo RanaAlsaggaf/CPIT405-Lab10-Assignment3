@@ -1,5 +1,5 @@
 <?php
-/* Student: 2209314 - Rana Alsaggaf */
+/* Rana Alsaggaf - 2209314 */
 function power_iterative($a,$b){ $r=1; for($i=0;$i<$b;$i++) $r*=$a; return $r; }
 function power_recursive($a,$b){
   if($b==0) return 1;

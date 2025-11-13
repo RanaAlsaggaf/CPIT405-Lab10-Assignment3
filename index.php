@@ -1,5 +1,5 @@
 <?php
-/* Student: 2209314 - Rana Alsaggaf */
+/* Rana Alsaggaf - 2209314 */
 session_start();
 ?>
 <!DOCTYPE html>
@@ -25,11 +25,11 @@ session_start();
 
     <a class="tile" href="controllers/db_show.php">
       <h3>Assessment 3</h3>
-      <p>SHOW DATABASES via PDO</p>
+      <p>SHOW DATABASES</p>
     </a>
 
     <a class="tile" href="views/books_list.php">
-      <h3>Books (CRUD + Ajax)</h3>
+      <h3>Books</h3>
       <p>Create, update, delete, list</p>
     </a>
 

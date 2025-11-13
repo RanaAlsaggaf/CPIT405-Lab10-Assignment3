@@ -1,5 +1,5 @@
 <?php
-/* Student: 2209314 - Rana Alsaggaf */
+/* Rana Alsaggaf - 2209314 */
 session_start();
 if(isset($_SESSION['user'])){ header('Location: books_list.php'); exit; }
 $hint=$_COOKIE['last_login_user']??'';

@@ -1,7 +1,6 @@
 <?php
-/* Student: 2209314 - Rana Alsaggaf */
-session_start(); // (optional) protect page: uncomment next line to require login
-// if(!isset($_SESSION['user'])){ header('Location: login.php'); exit; }
+/* Rana Alsaggaf - 2209314 */
+session_start(); 
 ?>
 <!DOCTYPE html>
 <html>
@@ -11,7 +10,7 @@ session_start(); // (optional) protect page: uncomment next line to require logi
   <link rel="stylesheet" href="../css/style1.css">
 </head>
 <body>
-  <h2>Books (CRUD via Ajax)</h2>
+  <h2>Books</h2>
 
   <form id="createForm" method="post" action="../controllers/books.php?action=create">
     <input name="title" placeholder="Title" required>
